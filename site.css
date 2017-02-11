@@ -1,0 +1,31 @@
+/* Make the whole page conform to the colour scheme -- individual elements can override this if you like */
+body {
+	background-color: #1e1e1e;
+	color: #00890a;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+/* These stop the header looking weird with spacing */
+#page-header {
+	margin-bottom: 0;
+}
+
+#page-subheader {
+	margin-top: 0;
+}
+
+/* Handle individual link states -- this stops unslightly blue links and underlines and keeps them all green */
+a, a:hover, a:active {
+	color: #00890a;
+	text-decoration: none;
+}
+
+/* Make the images the full size of the carousel */
+.carousel img {
+    min-width: 100%;
+}
+
+/* Colour the horizontal rule to match the theme */
+hr {
+	border-top-color: #00890a;
+}
